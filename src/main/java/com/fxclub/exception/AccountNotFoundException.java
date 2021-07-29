@@ -1,4 +1,4 @@
-package com.fxclub.account;
+package com.fxclub.exception;
 
 public class AccountNotFoundException extends Exception {
     public AccountNotFoundException(Integer id) {

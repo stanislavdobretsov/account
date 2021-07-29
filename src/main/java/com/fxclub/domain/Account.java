@@ -1,4 +1,4 @@
-package com.fxclub.account;
+package com.fxclub.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 
 @Table
 @Entity
@@ -22,5 +23,5 @@ public class Account {
     @Column(name = "id", columnDefinition = "serial")
     private Integer id;
 
-    private Integer balance;
+    private BigDecimal balance;
 }

@@ -1,4 +1,4 @@
-package com.fxclub.account;
+package com.fxclub.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

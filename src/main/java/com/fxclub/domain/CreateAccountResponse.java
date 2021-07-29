@@ -1,5 +1,6 @@
-package com.fxclub.account;
+package com.fxclub.domain;
 
+import com.fxclub.domain.CommonResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
